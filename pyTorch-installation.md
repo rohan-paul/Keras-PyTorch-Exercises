@@ -17,3 +17,41 @@ Go to - https://pytorch.org/
 And just follow the command
 
 ![](assets/2020-11-08-23-34-18.png)
+
+---
+
+### Check the current installed version of pytorch
+
+```
+python -c "import torch; print(torch.__version__)"
+```
+
+---
+
+### Check few things together after
+
+```python
+import sys
+import torch
+
+print(f"PyTorch Version: {torch.__version__}")
+print()
+print(f"Python {sys.version}")
+print("GPU is", "available" if torch.cuda.is_available() else "NOT AVAILABLE")
+
+```
+
+OUTPUT OF ABOVE
+
+```
+PyTorch Version: 1.7.0
+
+Python 3.7.6 (default, Jan  8 2020, 19:59:22)
+[GCC 7.3.0]
+GPU is available
+
+```
+
+Following
+
+https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/pytorch-install-jul-2020.ipynb
