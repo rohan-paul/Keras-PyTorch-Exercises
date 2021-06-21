@@ -20,7 +20,7 @@ And just follow the command
 
 ---
 
-### Check the current installed version of pytorch
+### Check the current installed version of pytorch by running below command in Terminal
 
 ```
 python -c "import torch; print(torch.__version__)"
@@ -28,7 +28,7 @@ python -c "import torch; print(torch.__version__)"
 
 ---
 
-### Check few things together after
+### Check if GPU is being used by pyTorch - run the below in a notebook
 
 ```python
 import sys
