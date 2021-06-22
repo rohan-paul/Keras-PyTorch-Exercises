@@ -62,6 +62,9 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+NOT_TO_GITHUB
+*/NOT_TO_GITHUB
+*/NOT_TO_GITHUB/*
 Project-Note-PAUL
 .vscode
 
